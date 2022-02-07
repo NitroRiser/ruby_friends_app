@@ -76,4 +76,5 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
+  config.hosts << "3000-nitroriser-rubyfriendsap-jm6p5dxc0k7.ws-us30.gitpod.io"
 end
